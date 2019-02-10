@@ -13,4 +13,4 @@ var strid = str.substring(6,11);
 if (strid =="sha1="){
 document.querySelector("i.fa.fa-download").click();
 }
-alert(strid);
+
