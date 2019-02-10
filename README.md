@@ -1,6 +1,6 @@
 
 # thailandtorrentautodownload
-siambit auto download torrent in tab for tempermonkey 
+thailandtorrent auto download torrent in tab for tempermonkey 
 
 **way to Install**
 
