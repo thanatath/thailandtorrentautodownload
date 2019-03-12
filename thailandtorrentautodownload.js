@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         TTAutoDownload
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        http://*/*
+// @match        *.tt-torrent.com
 // @grant        none
 // ==/UserScript==
 
@@ -14,4 +14,3 @@ if (strid =="sha1="){
 document.querySelector("i.fa.fa-download").click();
 document.title = 'Download Started';
 }
-
