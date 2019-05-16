@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        *.tt-torrent.com
+// @match        *.tt-torrent.com/*
 // @grant        none
 // ==/UserScript==
 
