@@ -11,6 +11,17 @@
 var str = window.location.search;
 var strid = str.substring(6,11);
 if (strid =="sha1="){
-document.querySelector("i.fa.fa-download").click();
+
+
+try {
+window.onload = function () {
+document.querySelector("#main > div > div:nth-child(1) > table > tbody > tr:nth-child(4) > td:nth-child(2) > button").click();
+}
 document.title = 'Download Started';
+}
+catch(error) {
+  document.title = 'Download Problem';
+}
+
+
 }
