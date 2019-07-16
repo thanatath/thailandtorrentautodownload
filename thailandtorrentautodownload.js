@@ -15,7 +15,7 @@ if (strid =="sha1="){
 
 try {
 window.onload = function () {
-document.querySelector("#main > div > div:nth-child(1) > table > tbody > tr:nth-child(4) > td:nth-child(2) > button").click();
+document.querySelector("#main > div > div:nth-child(1) > table > tbody > tr:nth-child(4) > td:nth-child(2) > a > i").click();
 }
 document.title = 'Download Started';
 }
